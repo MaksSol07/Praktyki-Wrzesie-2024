@@ -6,7 +6,7 @@ class Program
     {
         void Zmienne()
         {
-        //1. Definiowanie po 1 zmiennej ka¿dego typu
+        //1. Definiowanie po 1 zmiennej kaÂ¿dego typu
         int liczba = 10;
 
         float liczbaZmiennoprzecinkowa = 10.5f;
@@ -18,8 +18,8 @@ class Program
         char[] tablicaZnakow = { 'A', 'B', 'C' };
         }
 
-        //2a. wyœwietlenie zmiennej char za pomoc¹ pêtli foreach
-        void wyœwietlanieZmiennejChar()
+        //2a. wyÅ“wietlenie zmiennej char za pomocÂ¹ pÃªtli foreach
+        void wyÅ“wietlanieZmiennejChar()
         {
         foreach (char znak in tablicaZnakow)
         {
@@ -27,7 +27,7 @@ class Program
         }
         }
 
-        //2b. wyœwietlenie ka¿dej zmiennej z zadania 1
+        //2b. wyÅ“wietlenie kaÂ¿dej zmiennej z zadania 1
         int wyswietlZmienne()
         {
             Console.WriteLine($"zmienna int: {liczba}");
@@ -36,14 +36,14 @@ class Program
             Console.WriteLine($"zmienna char: {znak}");
         }
 
-        //3/4. program pobieraj¹cy dane od u¿ytkownika.
+        //3/4. program pobierajÂ¹cy dane od uÂ¿ytkownika.
         string program()
         {
                 
-            Console.Write("Podaj swoje imiê: ");
+            Console.Write("Podaj swoje imiÃª: ");
             string imie = Console.ReadLine();
 
-            Console.Write("Podaj swój wiek: ");
+            Console.Write("Podaj swÃ³j wiek: ");
             int wiek;
             bool czyWiekPoprawny = int.TryParse(Console.ReadLine(), out wiek);
 
@@ -51,39 +51,39 @@ class Program
             int rokUrodzenia;
             bool czyRokPoprawny = int.TryParse(Console.ReadLine(), out rokUrodzenia);
 
-            Console.Write("Podaj p³eæ (m lub k): ");
+            Console.Write("Podaj pÂ³eÃ¦ (m lub k): ");
             string plec = Console.ReadLine();
 
             bool Blad = false;
 
             if (!czyWiekPoprawny || wiek <= 0 || wiek > 120)
             {
-                Console.WriteLine("B³¹d: Wiek jest b³êdny.");
+                Console.WriteLine("BÂ³Â¹d: Wiek jest bÂ³Ãªdny.");
                 Blad = true;
             }
 
             if (!czyRokPoprawny || rokUrodzenia > 2010)
             {
-                Console.WriteLine("B³¹d: Rok urodzenia jest wiêkszy ni¿ 2010.");
+                Console.WriteLine("BÂ³Â¹d: Rok urodzenia jest wiÃªkszy niÂ¿ 2010.");
                 Blad = true;
             }
 
             if (plec.ToLower() != "m" && plec.ToLower() != "k")
             {
-                Console.WriteLine("B³¹d: P³eæ mo¿e byæ tylko 'M' lub 'K'.");
+                Console.WriteLine("BÂ³Â¹d: PÂ³eÃ¦ moÂ¿e byÃ¦ tylko 'M' lub 'K'.");
                 Blad = true;
             }
 
             if (!Blad)
             {
-                Console.WriteLine("\nDane u¿ytkownika:");
-                Console.WriteLine($"Imiê: {imie}");
+                Console.WriteLine("\nDane uÂ¿ytkownika:");
+                Console.WriteLine($"ImiÃª: {imie}");
                 Console.WriteLine($"Wiek: {wiek}");
                 Console.WriteLine($"Rok urodzenia: {rokUrodzenia}");
-                Console.WriteLine($"P³eæ: {plec}");
+                Console.WriteLine($"PÂ³eÃ¦: {plec}");
         }
 
-        //5. jedna pêtla ka¿dego rodzju
+        //5. jedna pÃªtla kaÂ¿dego rodzju
         void petle()
         {
             char[] For = { 'A', 'B', 'C', 'D' };
@@ -91,19 +91,19 @@ class Program
             int While = 15;
             int DoWhile = 10;
 
-            //pêtla for
+            //pÃªtla for
             for (int i = 0; i < For.Length; i++)
             {
                 Console.WriteLine(znakiFor[i] + " ");
             }
 
-            //pêtla foreach
+            //pÃªtla foreach
             foreach (char znak in Foreach)
             {
                 Console.WriteLine(znak + " ");
             }
 
-            //pêtla while
+            //pÃªtla while
             int j = 0;
             while (j < While.Length)
             {
@@ -111,7 +111,7 @@ class Program
                 j++;
             }
             
-            //pêtla dowhile
+            //pÃªtla dowhile
             int k = 0;
             do
             {
@@ -119,16 +119,16 @@ class Program
                 k++;
             } while (k < DoWhile.Length);
 
-            //5d. podwójna choinka za pomoc¹ pêtli for
+            //5d. podwÃ³jna choinka za pomocÂ¹ pÃªtli for
             function choinka()
             {
-                Console.Write("Podaj rozmiar choinki: ");
+                Console.Write("Wpisz rozmiar choinki: ");
                 int rozmiar;
                 bool poprawnyRozmiar = int.TryParse(Console.ReadLine(), out rozmiar);
 
                 if (!poprawnyRozmiar || rozmiar <= 0)
                 {
-                    Console.WriteLine("Nieprawid³owy rozmiar. Podaj liczbê wiêksz¹ ni¿ 0.");
+                    Console.WriteLine("Liczba musi byÄ‡ wiÄ™ksza od 0.");
                     return;
                 }
 
