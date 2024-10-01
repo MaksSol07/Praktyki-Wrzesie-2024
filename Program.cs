@@ -9,7 +9,7 @@ class Program
         
         void Zmienne()
         {
-        //1. Definiowanie po 1 zmiennej ka¿dego typu
+        //1. Definiowanie po 1 zmiennej kazdego typu
         int liczba = 10;
 
         float liczbaZmiennoprzecinkowa = 10.5f;
@@ -22,7 +22,7 @@ class Program
         }
 
         //2a. wyœwietlenie zmiennej char za pomoc¹ pêtli foreach
-        void wyœwietlanieZmiennejChar()
+        void wyswietlanieZmiennejChar()
         {
         foreach (char znak in tablicaZnakow)
         {
@@ -30,7 +30,7 @@ class Program
         }
         }
 
-        //2b. wyœwietlenie ka¿dej zmiennej z zadania 1
+        //2b. wyswietlenie kazdej zmiennej z zadania 1
         int wyswietlZmienne()
         {
             Console.WriteLine($"zmienna int: {liczba}");
@@ -39,14 +39,14 @@ class Program
             Console.WriteLine($"zmienna char: {znak}");
         }
 
-        //3/4. program pobieraj¹cy dane od u¿ytkownika.
+        //3/4. program pobieraj¹cy dane od uzytkownika.
         string program()
         {
                 
-            Console.Write("Podaj swoje imiê: ");
+            Console.Write("Podaj swoje imie: ");
             string imie = Console.ReadLine();
 
-            Console.Write("Podaj swój wiek: ");
+            Console.Write("Podaj swoj wiek: ");
             int wiek;
             bool czyWiekPoprawny = int.TryParse(Console.ReadLine(), out wiek);
 
@@ -54,36 +54,36 @@ class Program
             int rokUrodzenia;
             bool czyRokPoprawny = int.TryParse(Console.ReadLine(), out rokUrodzenia);
 
-            Console.Write("Podaj p³eæ (m lub k): ");
+            Console.Write("Podaj plec (m lub k): ");
             string plec = Console.ReadLine();
 
             bool Blad = false;
 
             if (!czyWiekPoprawny || wiek <= 0 || wiek > 120)
             {
-                Console.WriteLine("B³¹d: Wiek jest b³êdny.");
+                Console.WriteLine("Wiek jest bledny.");
                 Blad = true;
             }
 
             if (!czyRokPoprawny || rokUrodzenia > 2010)
             {
-                Console.WriteLine("B³¹d: Rok urodzenia jest wiêkszy ni¿ 2010.");
+                Console.WriteLine("Rok urodzenia jest wiêkszy niz 2010.");
                 Blad = true;
             }
 
             if (plec.ToLower() != "m" && plec.ToLower() != "k")
             {
-                Console.WriteLine("B³¹d: P³eæ mo¿e byæ tylko 'M' lub 'K'.");
+                Console.WriteLine("Blad: Plec moze byc tylko 'm' lub 'k'.");
                 Blad = true;
             }
 
             if (!Blad)
             {
-                Console.WriteLine("\nDane u¿ytkownika:");
-                Console.WriteLine($"Imiê: {imie}");
+                Console.WriteLine("\nDane uzytkownika:");
+                Console.WriteLine($"Imie: {imie}");
                 Console.WriteLine($"Wiek: {wiek}");
                 Console.WriteLine($"Rok urodzenia: {rokUrodzenia}");
-                Console.WriteLine($"P³eæ: {plec}");
+                Console.WriteLine($"Plec: {plec}");
         }
 
         //5. jedna pêtla ka¿dego rodzju
@@ -106,7 +106,7 @@ class Program
                 Console.WriteLine(znak + " ");
             }
 
-            //pêtla while
+            //petla while
             int j = 0;
             while (j < While.Length)
             {
@@ -122,7 +122,7 @@ class Program
                 k++;
             } while (k < DoWhile.Length);
 
-            //5d. podwójna choinka za pomoc¹ pêtli for
+            //5d. podwójna choinka za pomoca petli for
             function choinka()
             {
                 Console.Write("Wpisz rozmiar choinki: ");
