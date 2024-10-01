@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
+    
+    }
+        
         void Zmienne()
         {
         //1. Definiowanie po 1 zmiennej ka¿dego typu
@@ -145,11 +148,8 @@ class Program
                 }
 
                 Console.WriteLine();
+}                    
 
-            }
-            }
-        }
-    }
-}
+
 
 
