@@ -5,6 +5,18 @@ class Program
     static void Main(string[] args)
     {
     
+        Zmienne();
+    
+        wyswietlanieZmiennejChar();
+    
+        wyswietlZmienne();
+
+        program();
+
+        petle();
+
+        choinka();
+    
     }
         
         void Zmienne()
@@ -123,7 +135,7 @@ class Program
             } while (k < DoWhile.Length);
 
             //5d. podwójna choinka za pomoca petli for
-            function choinka()
+            void choinka()
             {
                 Console.Write("Wpisz rozmiar choinki: ");
                 int rozmiar;
