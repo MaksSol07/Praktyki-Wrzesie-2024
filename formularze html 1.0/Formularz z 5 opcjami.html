@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz z wyborem opcji</title>
+</head>
+<body style = "text-align: center;">
+    <h1>Formularz z wyborem jedenj z 5 opcji</h1>
+    <form action="/submit" method="post">
+        <label for="opcje">Wybór opcji:</label>
+        <select id="opcje" name="opcje">
+            <option value="opcja1">1</option>
+            <option value="opcja2">2</option>
+            <option value="opcja3">3</option>
+            <option value="opcja4">4</option>
+            <option value="opcja5">5</option>
+        </select><br><br>
+        <input type="submit" value="Zatwierdź" onclick = "return false;">
+    </form>
+</body>
+</html>
