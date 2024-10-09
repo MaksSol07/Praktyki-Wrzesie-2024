@@ -36,7 +36,7 @@ public class HomeController : Controller
     {
         var reviews = new List<ReviewModel>
             {
-                new ReviewModel { GameTitle = "Elden Ring", Rating = 9.8, ReviewText = "Arcydzie³o od FromSoftware." },
+                new ReviewModel { GameTitle = "Elden Ring", Rating = 9.8, ReviewText = "Arcydzielo od FromSoftware." },
                 new ReviewModel { GameTitle = "God of War Ragnarok", Rating = 9.5, ReviewText = "Kratos powraca w epickiej sadze." }
             };
 
