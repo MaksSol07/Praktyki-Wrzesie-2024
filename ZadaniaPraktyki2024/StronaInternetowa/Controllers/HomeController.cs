@@ -35,10 +35,10 @@ public class HomeController : Controller
     public IActionResult Reviews()
     {
         var reviews = new List<ReviewModel>
-            {
-                new ReviewModel { GameTitle = "Elden Ring", Rating = 9.8, ReviewText = "Arcydzielo od FromSoftware." },
-                new ReviewModel { GameTitle = "God of War Ragnarok", Rating = 9.5, ReviewText = "Kratos powraca w epickiej sadze." }
-            };
+        {
+            new ReviewModel { GameTitle = "Elden Ring", Rating = 9.8, ReviewText = "Arcydzielo od FromSoftware." },
+            new ReviewModel { GameTitle = "God of War Ragnarok", Rating = 9.5, ReviewText = "Kratos powraca w epickiej sadze." }
+        };
 
         return View(reviews);
     }
@@ -47,10 +47,10 @@ public class HomeController : Controller
     public IActionResult UpcomingReleases()
     {
         var releases = new List<UpcomingReleaseModel>
-            {
-                new UpcomingReleaseModel { GameTitle = "Starfield", ReleaseDate = new DateTime(2024, 11, 12) },
-                new UpcomingReleaseModel { GameTitle = "Hogwarts Legacy", ReleaseDate = new DateTime(2024, 12, 5) }
-            };
+        {
+            new UpcomingReleaseModel { GameTitle = "Starfield", ReleaseDate = new DateTime(2024, 11, 12) },
+            new UpcomingReleaseModel { GameTitle = "Hogwarts Legacy", ReleaseDate = new DateTime(2024, 12, 5) }
+        };
 
         return View(releases);
     }
