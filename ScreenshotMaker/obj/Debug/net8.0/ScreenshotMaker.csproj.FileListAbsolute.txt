@@ -1,0 +1,5 @@
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\ScreenshotMaker\obj\Debug\net8.0\ScreenshotMaker.csproj.AssemblyReference.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\ScreenshotMaker\obj\Debug\net8.0\ScreenshotMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\ScreenshotMaker\obj\Debug\net8.0\ScreenshotMaker.AssemblyInfoInputs.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\ScreenshotMaker\obj\Debug\net8.0\ScreenshotMaker.AssemblyInfo.cs
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\ScreenshotMaker\obj\Debug\net8.0\ScreenshotMaker.csproj.CoreCompileInputs.cache
