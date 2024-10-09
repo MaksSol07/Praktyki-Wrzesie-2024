@@ -1,0 +1,20 @@
+@model List<StronaInternetowa.Models.NewsModel>
+
+    @{
+        ViewData["Title"] = "Nowości w Świecie Gier";
+    }
+
+    <div class="text-center">
+        <h1 class="display-4">Nowości w Świecie Gier</h1>
+        <p>Sprawdź najnowsze informacje ze świata gier:</p>
+
+        <ul>
+            @foreach (var newsItem in Model)
+            {
+                <li>
+                    <strong>@newsItem.Title:</strong> @newsItem.Content (@newsItem.Date.ToString("dd MMM yyyy"))
+                </li>
+            }
+        </ul>
+    </div>
+

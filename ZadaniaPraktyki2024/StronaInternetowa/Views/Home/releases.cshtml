@@ -1,0 +1,20 @@
+@model List<StronaInternetowa.Models.UpcomingReleaseModel>
+
+    @{
+        ViewData["Title"] = "Nadchodzące Premiery";
+    }
+
+    <div class="text-center">
+        <h1 class="display-4">Nadchodzące Premiery</h1>
+        <p>Oczekiwane gry na najbliższe miesiące:</p>
+
+        <ul>
+            @foreach (var release in Model)
+            {
+                <li>
+                    <strong>@release.GameTitle:</strong> @release.ReleaseDate.ToString("dd MMM yyyy")
+                </li>
+            }
+        </ul>
+    </div>
+

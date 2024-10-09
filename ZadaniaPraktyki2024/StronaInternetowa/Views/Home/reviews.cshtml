@@ -1,0 +1,22 @@
+@model List<StronaInternetowa.Models.ReviewModel>
+
+    @{
+        ViewData["Title"] = "Recenzje Gier";
+    }
+
+    <div class="text-center">
+        <h1 class="display-4">Recenzje Gier</h1>
+        <p>Sprawdü nasze najnowsze recenzje:</p>
+
+        @foreach (var review in Model)
+        {
+            <div>
+                <h3>@review.GameTitle</h3>
+                <p>
+                    <strong>Ocena:</strong> @review.Rating/10<br />
+                    @review.ReviewText
+                </p>
+            </div>
+        }
+    </div>
+

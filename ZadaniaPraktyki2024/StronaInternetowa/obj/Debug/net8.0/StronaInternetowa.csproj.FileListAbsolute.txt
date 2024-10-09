@@ -1,0 +1,9 @@
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.csproj.AssemblyReference.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.AssemblyInfoInputs.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.AssemblyInfo.cs
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.csproj.CoreCompileInputs.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.RazorAssemblyInfo.cache
+C:\Users\makss\Desktop\programowanie\Zadania Domowe\projekt MVC\StronaInternetowa\obj\Debug\net8.0\StronaInternetowa.RazorAssemblyInfo.cs
